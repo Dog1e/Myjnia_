@@ -1,1 +1,2 @@
 # Myjnia
+# Michał Szczęsny
