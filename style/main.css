@@ -181,8 +181,12 @@ footer{
     margin:2%;
     align-items: center;
     justify-content: center;
+    height: 100px;
+    border-radius: 1em;
 }
 
 .Imie{
     color:hsl(0, 100%, 50%);
+    letter-spacing: 0.4em;
+    font-weight:bold;
 }
