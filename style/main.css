@@ -103,6 +103,10 @@ main>h2{
     justify-content: center;
 }
 
+.im{
+    margin-left: 2%;
+}
+
 form{
     flex-basis: 55%;
 }
@@ -116,11 +120,13 @@ img{
     margin-top:15%;
     width: 250px;
     height:167px;
+    margin-left:3%;
 }
 
 .b1{
     padding: 0.5em;
     width: 6em;
+    margin-left:2%;
 }
 
 .b2{
@@ -178,7 +184,7 @@ footer{
     display: flex;
     flex-basis: 100%;
     border: 1px hsl(240, 50%, 50%) solid;
-    margin:2%;
+    margin-top:2%;
     align-items: center;
     justify-content: center;
     height: 100px;
