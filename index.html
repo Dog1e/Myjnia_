@@ -20,7 +20,7 @@
         <h2>Oblicz koszt usługi</h2>
         <form>
             Podaj imię:<input type="text" placeholder="wpisz swoje imię" required>
-            <fieldset>
+            <fieldset class="usluga">
                 <legend>Usługa</legend>
             <a>Mycie zewnętrzne 30zł<input type="checkbox" checked></a>
             <a>Suszenie 10zł<input type="checkbox"></a>
@@ -36,17 +36,17 @@
                 <option value="Bus">Bus (+45%)</option>
                 </select>
             </fieldset>
-                <fieldset>
+                <fieldset class="Karta">
                     <legend>Karta stałego klienta</legend>
-                Brak<input type="radio" checked name="KSK">
-                Srebrna (-5%)<input type="radio" name="KSK">
-                Złota (-15%)<input type="radio" name="KSK">
+                <a>Brak<input type="radio" checked name="KSK"></a>
+                <a>Srebrna (-5%)<input type="radio" name="KSK"></a>
+                <a>Złota (-15%)<input type="radio" name="KSK"></a>
             </fieldset>
-            <input type="reset" value="Wyczyść">
-            <input type="submit" value="Oblicz">
+            <input type="reset" value="Wyczyść" class="b1">
+            <input type="submit" value="Oblicz" class="b2">
         </form>
         <img src="hand_m.jpg" alt="mycie ręczne">
-        Koszt usługi:
+        <div class="sm">Koszt usługi:</div>
     </main>
 
 
